@@ -129,16 +129,6 @@ const SignIn: React.FC<ISignInProps> = ({ setLogin }) => {
             Dont have an <strong>account?</strong>
           </a>
         </p>
-        <p>
-          <a
-            onClick={e => {
-              e.preventDefault()
-              setLogin('forgot-password')
-            }}
-          >
-            I <strong>forgot</strong> my password
-          </a>
-        </p>
       </s.Actions>
     </s.SignIn>
   )

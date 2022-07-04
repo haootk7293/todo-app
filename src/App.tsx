@@ -43,7 +43,6 @@ const App: React.FC = () => {
         </NotificationContextProvider>
         <GlobalStyles />
       </ThemeProvider>
-      <ReactQueryDevtools initialIsOpen={false} />
     </QueryClientProvider>
   )
 }
